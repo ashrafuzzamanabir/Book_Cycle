@@ -30,7 +30,7 @@ services:
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
     ports:
-      - 8001:80
+      - 8001:80  #localhost:8001 for db interface
     environment:
       - PMA_HOST=db
       - PMA_PORT=3306
